@@ -1,0 +1,26 @@
+/* Article-specific refinements */
+.article-hero-media {
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface);
+  overflow: hidden;
+}
+.article-hero-media img { display: block; width: 100%; height: auto; }
+.article-hero-media figcaption {
+  padding: var(--space-3) var(--space-4);
+  font-size: var(--fs-xs);
+  color: var(--color-neutral-600);
+  background: var(--color-surface-alt);
+  border-top: 1px solid var(--color-border);
+}
+.article-body p { color: var(--color-neutral-900); }
+.article-body strong { color: var(--color-ink-900); }
+.article-body h2:first-child { margin-top: 0; }
+.article-body .table-wrap:first-child { margin-top: 0; }
+.article-body figure { margin-block: var(--space-6); }
+.article-body figcaption { font-size: var(--fs-xs); color: var(--color-neutral-400); margin-top: var(--space-2); text-align: center; }
+.article-body .lede { font-size: var(--fs-xl); color: var(--color-neutral-600); font-family: var(--font-display); }
+@media print {
+  .site-header, .site-footer, .sidebar, .back-to-top, .reading-progress, .toc { display: none !important; }
+  .article-layout { grid-template-columns: 1fr !important; }
+}

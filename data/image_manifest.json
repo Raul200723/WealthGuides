@@ -1,0 +1,71 @@
+{
+  "what-is-an-index-fund": {
+    "caption": "A single index fund pools many individual holdings into one diversified position."
+  },
+  "what-is-an-etf": {
+    "caption": "ETF shares trade continuously on an exchange throughout the day."
+  },
+  "index-funds-vs-etfs-vs-mutual-funds": {
+    "caption": "Index funds and ETFs are two structures for the same underlying strategy."
+  },
+  "how-to-buy-your-first-index-fund": {
+    "caption": "The practical path from opening an account to an automated contribution schedule."
+  },
+  "expense-ratios-explained": {
+    "caption": "Illustrative example: a 0.97 percentage point fee gap compounding over 30 years on an identical gross return."
+  },
+  "sp-500-index-funds-explained": {
+    "caption": "Illustrative breakdown of how market-cap weighting concentrates index weight in the largest holdings."
+  },
+  "voo-vs-vti-vs-spy": {
+    "caption": "Illustrative expense-ratio comparison across large-cap and total-market fund structures \u2014 always verify current figures directly with each provider."
+  },
+  "best-index-funds-for-beginners": {
+    "caption": "The four fund categories most commonly used to build a beginner-friendly index portfolio."
+  },
+  "best-brokerage-accounts-for-index-investing": {
+    "caption": "The brokerage features that matter for long-term index investing, versus features built for active trading."
+  },
+  "fidelity-vs-vanguard-vs-schwab": {
+    "caption": "A neutral comparison framework \u2014 always verify each provider's current fees directly."
+  },
+  "robo-advisors-vs-diy-index-investing": {
+    "caption": "Two reasonable paths to the same underlying index-fund strategy."
+  },
+  "dollar-cost-averaging-explained": {
+    "caption": "Illustrative monthly purchases \u2014 dot size shows shares bought that month."
+  },
+  "building-a-3-fund-portfolio": {
+    "caption": "An illustrative three-fund allocation split across U.S. stocks, international stocks, and bonds."
+  },
+  "asset-allocation-by-age": {
+    "caption": "One commonly cited illustrative allocation framework \u2014 not a personalized recommendation."
+  },
+  "rebalancing-your-portfolio": {
+    "caption": "An illustrative example of allocation drift after a strong period for stocks, before rebalancing."
+  },
+  "dividend-reinvestment-drip": {
+    "caption": "The reinvestment loop: dividends buy additional shares, which generate further dividends."
+  },
+  "index-funds-in-a-roth-ira": {
+    "caption": "Investment growth inside a Roth IRA is not taxed again on qualified withdrawal."
+  },
+  "401k-index-fund-options-explained": {
+    "caption": "A 401(k) balance typically combines your own contribution with any employer match."
+  },
+  "traditional-vs-roth-ira-for-index-investors": {
+    "caption": "Traditional and Roth accounts move the same tax bill to different points in time."
+  },
+  "how-much-to-invest-for-retirement-by-age": {
+    "caption": "A commonly cited general benchmark \u2014 not a personalized savings target."
+  },
+  "tax-efficient-index-fund-investing": {
+    "caption": "Asset location: placing less tax-efficient holdings inside tax-advantaged accounts where possible."
+  },
+  "common-index-fund-investing-mistakes": {
+    "caption": "Recognizing recurring mistake patterns is more useful than memorizing any single rule."
+  },
+  "market-volatility-what-index-investors-should-know": {
+    "caption": "An illustrative, randomly generated price path \u2014 not actual historical market data."
+  }
+}

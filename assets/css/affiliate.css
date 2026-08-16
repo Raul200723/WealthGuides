@@ -1,0 +1,59 @@
+/* ==========================================================================
+   AFFILIATE-READY COMPONENTS
+   No affiliate links are inserted anywhere in this codebase. These are
+   structural placeholders + required disclosure UI so affiliate partnerships
+   can be added later by populating data/comparisons/*.json — without any
+   template or layout changes, and without ever hiding the disclosure.
+   ========================================================================== */
+
+.affiliate-disclosure {
+  display: flex;
+  gap: var(--space-3);
+  align-items: flex-start;
+  background: var(--color-surface-alt);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-4) var(--space-5);
+  font-size: var(--fs-xs);
+  color: var(--color-neutral-600);
+  margin-block: var(--space-6);
+}
+
+.where-to-invest {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+  margin-block: var(--space-7);
+  background: var(--color-surface);
+}
+.where-to-invest h3 { margin-top: 0; }
+.where-to-invest .provider-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  padding: var(--space-4) 0;
+  border-top: 1px solid var(--color-border);
+}
+.where-to-invest .provider-row:first-of-type { border-top: none; }
+.where-to-invest .provider-name { font-weight: 600; color: var(--color-ink-900); }
+.where-to-invest .provider-note { color: var(--color-neutral-600); font-size: var(--fs-sm); }
+/* .provider-cta is an intentional placeholder slot — populate href from
+   data/comparisons/*.json when a real, disclosed affiliate/referral link
+   exists. Left as a disabled-style ghost button until then so nothing
+   appears clickable-but-broken to users or crawlers. */
+.provider-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 120px;
+  min-height: 40px;
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-sm);
+  border: 1px dashed var(--color-neutral-200);
+  color: var(--color-neutral-600);
+  font-size: var(--fs-xs);
+  font-family: var(--font-mono);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}

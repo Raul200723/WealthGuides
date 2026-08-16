@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /search/?q=
-
-Sitemap: https://wealthguides.online/sitemap.xml

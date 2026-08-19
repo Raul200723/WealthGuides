@@ -1,0 +1,220 @@
+{
+  "articles": [
+    {
+      "slug": "401k-index-fund-options-explained",
+      "url": "/articles/401k-index-fund-options-explained/",
+      "title": "401(k) Index Fund Options Explained: How to Choose (2026)",
+      "description": "How to evaluate the index fund choices inside a typical employer 401(k) plan menu, including target-date funds and how to spot hidden costs.",
+      "category": "Retirement Accounts",
+      "reading_time": 11,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "asset-allocation-by-age",
+      "url": "/articles/asset-allocation-by-age/",
+      "title": "Asset Allocation by Age: Stock/Bond Mix Guide (2026)",
+      "description": "How commonly cited asset allocation guidance changes across a typical investing lifespan, and why it's a starting point rather than a formula.",
+      "category": "Strategy & Long-Term Wealth",
+      "reading_time": 11,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "best-brokerage-accounts-for-index-investing",
+      "url": "/articles/best-brokerage-accounts-for-index-investing/",
+      "title": "Best Brokerage Accounts for Index Investing (2026)",
+      "description": "What to actually compare between brokerage accounts for long-term index investing \u2014 commissions, fund selection, and features that matter.",
+      "category": "Comparing Funds & Brokers",
+      "reading_time": 11,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "best-index-funds-for-beginners",
+      "url": "/articles/best-index-funds-for-beginners/",
+      "title": "Best Index Funds for Beginners in 2026 \u2014 A Methodology-First Guide",
+      "description": "A methodology-first look at the fund categories most commonly recommended for new investors, and how to evaluate specific fund choices yourself.",
+      "category": "Comparing Funds & Brokers",
+      "reading_time": 12,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "building-a-3-fund-portfolio",
+      "url": "/articles/building-a-3-fund-portfolio/",
+      "title": "Building a 3-Fund Portfolio: Complete Walkthrough (2026)",
+      "description": "The logic behind the widely used three-fund index portfolio strategy, with allocation examples by age and risk tolerance, and how to actually implement it.",
+      "category": "Strategy & Long-Term Wealth",
+      "reading_time": 13,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "common-index-fund-investing-mistakes",
+      "url": "/articles/common-index-fund-investing-mistakes/",
+      "title": "9 Common Index Fund Investing Mistakes to Avoid (2026)",
+      "description": "The recurring, avoidable errors that quietly cost long-term index investors the most \u2014 from panic-selling to overlapping funds to ignoring fees.",
+      "category": "Risk, Taxes & Mistakes",
+      "reading_time": 12,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "dividend-reinvestment-drip",
+      "url": "/articles/dividend-reinvestment-drip/",
+      "title": "Dividend Reinvestment (DRIP) Explained: How It Affects Growth (2026)",
+      "description": "How automatic dividend reinvestment works, why it matters for long-term compounding, and how to set it up (or decide against it) in different account types.",
+      "category": "Strategy & Long-Term Wealth",
+      "reading_time": 9,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "dollar-cost-averaging-explained",
+      "url": "/articles/dollar-cost-averaging-explained/",
+      "title": "Dollar-Cost Averaging Explained With Real Numbers (2026)",
+      "description": "How dollar-cost averaging actually works, a worked numerical example, and an honest look at when it helps and when a lump sum tends to perform better.",
+      "category": "Strategy & Long-Term Wealth",
+      "reading_time": 10,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "expense-ratios-explained",
+      "url": "/articles/expense-ratios-explained/",
+      "title": "Expense Ratios Explained: How Fund Fees Compound (2026)",
+      "description": "What an expense ratio actually is, how it's charged, and why a small percentage difference between funds can cost tens of thousands of dollars over time.",
+      "category": "Index Fund & ETF Basics",
+      "reading_time": 11,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "fidelity-vs-vanguard-vs-schwab",
+      "url": "/articles/fidelity-vs-vanguard-vs-schwab/",
+      "title": "Fidelity vs. Vanguard vs. Schwab for Index Investors (2026)",
+      "description": "How the three major low-cost providers actually differ for a long-term index investor \u2014 ownership structure, fund lineup, and account features compared directly.",
+      "category": "Comparing Funds & Brokers",
+      "reading_time": 11,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "how-much-to-invest-for-retirement-by-age",
+      "url": "/articles/how-much-to-invest-for-retirement-by-age/",
+      "title": "How Much to Invest for Retirement by Age: Benchmarks (2026)",
+      "description": "Commonly cited retirement savings benchmarks by age, where they come from, and why they should be treated as reference points rather than personal targets.",
+      "category": "Retirement Accounts",
+      "reading_time": 11,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "how-to-buy-your-first-index-fund",
+      "url": "/articles/how-to-buy-your-first-index-fund/",
+      "title": "How to Buy Your First Index Fund: Step-by-Step (2026)",
+      "description": "A complete, practical walkthrough of opening a brokerage account and buying your first index fund, from account type to placing the order.",
+      "category": "Index Fund & ETF Basics",
+      "reading_time": 13,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "index-funds-in-a-roth-ira",
+      "url": "/articles/index-funds-in-a-roth-ira/",
+      "title": "Index Funds in a Roth IRA: The Complete Guide (2026)",
+      "description": "How tax-free growth actually works inside a Roth IRA, which index funds tend to fit best, and the rules and limits to know before contributing.",
+      "category": "Retirement Accounts",
+      "reading_time": 12,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "index-funds-vs-etfs-vs-mutual-funds",
+      "url": "/articles/index-funds-vs-etfs-vs-mutual-funds/",
+      "title": "Index Funds vs. ETFs vs. Mutual Funds Explained (2026)",
+      "description": "A clear breakdown of how index funds, ETFs, and mutual funds relate \u2014 they're not three competing categories, which confuses a lot of new investors.",
+      "category": "Index Fund & ETF Basics",
+      "reading_time": 12,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "market-volatility-what-index-investors-should-know",
+      "url": "/articles/market-volatility-what-index-investors-should-know/",
+      "title": "Market Volatility: What Index Investors Should Know (2026)",
+      "description": "How to think about market downturns as a long-term index investor, with historical context on the frequency and duration of declines and recoveries.",
+      "category": "Risk, Taxes & Mistakes",
+      "reading_time": 11,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "rebalancing-your-portfolio",
+      "url": "/articles/rebalancing-your-portfolio/",
+      "title": "Rebalancing Your Portfolio: When and How to Do It (2026)",
+      "description": "Why portfolios drift from their target allocation, when to rebalance, and the steps for doing it in a taxable vs. retirement account.",
+      "category": "Strategy & Long-Term Wealth",
+      "reading_time": 10,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "robo-advisors-vs-diy-index-investing",
+      "url": "/articles/robo-advisors-vs-diy-index-investing/",
+      "title": "Robo-Advisors vs. DIY Index Investing Compared (2026)",
+      "description": "How automated robo-advisor portfolios actually differ from building your own index fund portfolio directly, in cost, control, and effort.",
+      "category": "Comparing Funds & Brokers",
+      "reading_time": 10,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "sp-500-index-funds-explained",
+      "url": "/articles/sp-500-index-funds-explained/",
+      "title": "S&P 500 Index Funds Explained: What You're Actually Buying",
+      "description": "What the S&P 500 index actually is, how funds tracking it are constructed, and what you are and aren't exposed to when you buy one.",
+      "category": "Index Fund & ETF Basics",
+      "reading_time": 11,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "tax-efficient-index-fund-investing",
+      "url": "/articles/tax-efficient-index-fund-investing/",
+      "title": "Tax-Efficient Index Fund Investing: Where to Hold What (2026)",
+      "description": "Which fund types to hold in taxable vs. tax-advantaged accounts to minimize tax drag, and what makes some index funds more tax-efficient.",
+      "category": "Risk, Taxes & Mistakes",
+      "reading_time": 12,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "traditional-vs-roth-ira-for-index-investors",
+      "url": "/articles/traditional-vs-roth-ira-for-index-investors/",
+      "title": "Traditional vs. Roth IRA for Index Investors: Full Comparison (2026)",
+      "description": "The tax-timing tradeoff between Traditional and Roth IRAs, explained with a worked example \u2014 plus how index fund selection works in either account.",
+      "category": "Retirement Accounts",
+      "reading_time": 12,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "voo-vs-vti-vs-spy",
+      "url": "/articles/voo-vs-vti-vs-spy/",
+      "title": "VOO vs. VTI vs. SPY: What Actually Differs (2026)",
+      "description": "A structural comparison of three widely held U.S. index ETFs \u2014 what each tracks, how costs compare, and when the differences matter.",
+      "category": "Comparing Funds & Brokers",
+      "reading_time": 10,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "what-is-a-target-date-fund",
+      "url": "/articles/what-is-a-target-date-fund/",
+      "title": "What Is a Target-Date Fund? How It Works (2026)",
+      "description": "How target-date funds automatically shift their stock and bond mix over time, what a glide path actually is, and when one reasonably beats building your own portfolio.",
+      "category": "Index Fund & ETF Basics",
+      "reading_time": 11,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "what-is-an-etf",
+      "url": "/articles/what-is-an-etf/",
+      "title": "What Is an ETF? How Exchange-Traded Funds Work (2026 Guide)",
+      "description": "How ETFs actually work, how they trade differently from mutual funds, and when that structural difference matters to an everyday investor.",
+      "category": "Index Fund & ETF Basics",
+      "reading_time": 11,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "what-is-an-index-fund",
+      "url": "/articles/what-is-an-index-fund/",
+      "title": "What Is an Index Fund? A Plain-English Guide (2026)",
+      "description": "A clear explanation of how index funds work, how they differ from actively managed funds, and why they've become the default choice for long-term investors.",
+      "category": "Index Fund & ETF Basics",
+      "reading_time": 12,
+      "updated": "2026-08"
+    }
+  ]
+}

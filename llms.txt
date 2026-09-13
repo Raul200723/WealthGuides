@@ -1,0 +1,29 @@
+# WealthGuides
+
+> WealthGuides is a U.S.-focused educational publication covering index funds, ETFs, retirement accounts, and long-term portfolio strategy. Content is produced by an editorial team, sourced from primary sources including SEC filings, fund prospectuses, IRS publications, and Federal Reserve data. WealthGuides does not provide personalized financial advice; see the disclaimer for details.
+
+## Core topics
+
+- [Index Fund & ETF Basics](https://wealthguides.online/category/index-fund-etf-basics/): what index funds and ETFs are, how they work, and how they differ from other fund types
+- [Comparing Funds & Brokers](https://wealthguides.online/category/comparing-funds-brokers/): brokerage and fund comparisons for index investors
+- [Strategy & Long-Term Wealth](https://wealthguides.online/category/strategy-long-term-wealth/): portfolio construction, asset allocation, and rebalancing
+- [Retirement Accounts](https://wealthguides.online/category/retirement-accounts/): IRAs, 401(k)s, and HSAs used for retirement investing
+- [Risk, Taxes & Mistakes](https://wealthguides.online/category/risk-taxes-mistakes/): common investing mistakes, tax efficiency, and risk concepts
+
+## About WealthGuides
+
+- [About](https://wealthguides.online/about/): what WealthGuides is and how it sources content
+- [Editorial Team](https://wealthguides.online/author/editorial-team/): who produces the content and how
+- [Editorial Policy](https://wealthguides.online/editorial-policy/)
+- [Methodology](https://wealthguides.online/methodology/)
+- [Disclaimer](https://wealthguides.online/disclaimer/): educational content, not personalized financial advice
+
+## Tools and reference
+
+- [Calculators](https://wealthguides.online/calculators/): interactive investing calculators, including a fee-drag calculator
+- [Glossary](https://wealthguides.online/glossary/): definitions of investing terms used across the site
+
+## Full content index
+
+- [XML sitemap](https://wealthguides.online/sitemap.xml): complete list of indexable pages
+- [RSS feed](https://wealthguides.online/feed.xml): recently published and updated articles

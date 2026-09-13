@@ -37,6 +37,15 @@
       "updated": "2026-08"
     },
     {
+      "slug": "bond-index-funds-explained",
+      "url": "/articles/bond-index-funds-explained/",
+      "title": "Bond Index Funds Explained: What & Why (2026)",
+      "description": "How bond index funds work, why interest rates move their price, and how to think about bonds as the counterweight to stocks in a long-term portfolio.",
+      "category": "Index Fund & ETF Basics",
+      "reading_time": 12,
+      "updated": "2026-08"
+    },
+    {
       "slug": "building-a-3-fund-portfolio",
       "url": "/articles/building-a-3-fund-portfolio/",
       "title": "Building a 3-Fund Portfolio: Complete Walkthrough (2026)",
@@ -109,6 +118,15 @@
       "updated": "2026-08"
     },
     {
+      "slug": "hsa-as-a-retirement-investment-account",
+      "url": "/articles/hsa-as-a-retirement-investment-account/",
+      "title": "HSA as a Retirement Investment Account Explained",
+      "description": "How a Health Savings Account's triple tax advantage works, why some investors treat it as a retirement account, and the rules that make that strategy work.",
+      "category": "Retirement Accounts",
+      "reading_time": 11,
+      "updated": "2026-08"
+    },
+    {
       "slug": "index-funds-in-a-roth-ira",
       "url": "/articles/index-funds-in-a-roth-ira/",
       "title": "Index Funds in a Roth IRA: The Complete Guide (2026)",
@@ -124,6 +142,15 @@
       "description": "A clear breakdown of how index funds, ETFs, and mutual funds relate \u2014 they're not three competing categories, which confuses a lot of new investors.",
       "category": "Index Fund & ETF Basics",
       "reading_time": 12,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "international-index-funds-explained",
+      "url": "/articles/international-index-funds-explained/",
+      "title": "International Index Funds Explained: Why and How Much",
+      "description": "How international index funds work, the case for and against holding them alongside U.S. stocks, and how much international exposure commonly makes sense.",
+      "category": "Index Fund & ETF Basics",
+      "reading_time": 11,
       "updated": "2026-08"
     },
     {
@@ -150,6 +177,15 @@
       "title": "Robo-Advisors vs. DIY Index Investing Compared (2026)",
       "description": "How automated robo-advisor portfolios actually differ from building your own index fund portfolio directly, in cost, control, and effort.",
       "category": "Comparing Funds & Brokers",
+      "reading_time": 10,
+      "updated": "2026-08"
+    },
+    {
+      "slug": "sequence-of-returns-risk",
+      "url": "/articles/sequence-of-returns-risk/",
+      "title": "Sequence of Returns Risk Explained (Retirement Withdrawals)",
+      "description": "Why the same average return can produce very different retirement outcomes depending on when the gains and losses occur, with a worked numerical example.",
+      "category": "Retirement Accounts",
       "reading_time": 10,
       "updated": "2026-08"
     },
@@ -215,6 +251,15 @@
       "category": "Index Fund & ETF Basics",
       "reading_time": 12,
       "updated": "2026-08"
+    },
+    {
+      "slug": "3-fund-portfolio-vs-target-date-fund",
+      "url": "/articles/3-fund-portfolio-vs-target-date-fund/",
+      "title": "3-Fund Portfolio vs. Target-Date Fund: Which to Use? (2026)",
+      "description": "A direct, numbers-based comparison of a DIY 3-fund portfolio versus a target-date fund \u2014 the real cost gap, the effort tradeoff, and a framework for choosing.",
+      "category": "Strategy & Long-Term Wealth",
+      "reading_time": 10,
+      "updated": "2026-09"
     }
   ]
 }

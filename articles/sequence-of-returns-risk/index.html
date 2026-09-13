@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sequence of Returns Risk Explained (Retirement Withdrawals)</title>
+<meta name="description" content="Why the same average return can produce very different retirement outcomes depending on when the gains and losses occur, with a worked numerical example.">
+<link rel="canonical" href="https://wealthguides.online/articles/sequence-of-returns-risk/">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="WealthGuides">
+<meta property="og:title" content="Sequence of Returns Risk Explained (Retirement Withdrawals)">
+<meta property="og:description" content="Why the same average return can produce very different retirement outcomes depending on when the gains and losses occur, with a worked numerical example.">
+<meta property="og:url" content="https://wealthguides.online/articles/sequence-of-returns-risk/">
+<meta property="og:image" content="https://wealthguides.online/assets/images/articles/sequence-of-returns-risk/og.webp">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/images/icons/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="/favicon.ico">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/icons/favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/assets/images/icons/favicon-16.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/icons/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="alternate" type="application/rss+xml" title="WealthGuides RSS Feed" href="/feed.xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600;700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<link rel="stylesheet" href="/assets/css/tokens.css">
+<link rel="stylesheet" href="/assets/css/base.css">
+<link rel="stylesheet" href="/assets/css/layout.css">
+<link rel="stylesheet" href="/assets/css/components.css" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="/assets/css/components.css"></noscript>
+<link rel="stylesheet" href="/assets/css/article.css">
+<link rel="stylesheet" href="/assets/css/affiliate.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://wealthguides.online/"}, {"@type": "ListItem", "position": 2, "name": "Retirement Accounts", "item": "https://wealthguides.online/category/retirement-accounts/"}, {"@type": "ListItem", "position": 3, "name": "Sequence of Returns Risk: Why the Order of Returns Matters in Retirement"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Sequence of Returns Risk: Why the Order of Returns Matters in Retirement", "description": "Why the same average return can produce very different retirement outcomes depending on when the gains and losses occur, with a worked numerical example.", "datePublished": "2026-08-19", "dateModified": "2026-08-19", "author": {"@type": "Organization", "name": "WealthGuides Editorial Team", "url": "https://wealthguides.online/author/editorial-team/"}, "publisher": {"@type": "Organization", "name": "WealthGuides", "logo": {"@type": "ImageObject", "url": "https://wealthguides.online/assets/images/icons/logo.svg"}}, "image": "https://wealthguides.online/assets/images/articles/sequence-of-returns-risk/og.webp", "mainEntityOfPage": {"@type": "WebPage", "@id": "https://wealthguides.online/articles/sequence-of-returns-risk/"}}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Does sequence of returns risk affect me while I'm still working and contributing?", "acceptedAnswer": {"@type": "Answer", "text": "Not meaningfully \u2014 during accumulation, the order of returns doesn't change your final balance given the same total returns, since there's no forced selling at a fixed dollar withdrawal. It becomes relevant specifically once you start withdrawing a fixed amount from a portfolio."}}, {"@type": "Question", "name": "Is there a way to eliminate sequence of returns risk entirely?", "acceptedAnswer": {"@type": "Answer", "text": "Not entirely, short of holding only cash (which introduces its own risk of insufficient long-term growth). Common approaches reduce its impact rather than eliminate it \u2014 see the mitigation strategies above."}}, {"@type": "Question", "name": "How is this different from just 'market volatility'?", "acceptedAnswer": {"@type": "Answer", "text": "Market volatility describes price fluctuation in general; sequence of returns risk is specifically about how the timing of that volatility interacts with fixed withdrawals during the retirement/withdrawal phase, which is a narrower and more specific mechanism."}}, {"@type": "Question", "name": "Does a higher average return protect against sequence risk?", "acceptedAnswer": {"@type": "Answer", "text": "Not necessarily \u2014 as the worked example shows, two scenarios with the identical average return can produce very different outcomes purely from order. A higher average helps on balance, but doesn't eliminate the risk from an unlucky early sequence."}}]}</script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="container">
+    <a href="/" class="brand" aria-label="WealthGuides home">
+      <span class="brand-mark" aria-hidden="true">◆</span> WealthGuides
+    </a>
+    <nav class="primary-nav" aria-label="Primary">
+      <ul>
+        <li><a href="/category/index-fund-etf-basics/">Fund Basics</a></li>
+        <li><a href="/category/comparing-funds-brokers/">Comparisons</a></li>
+        <li><a href="/category/strategy-long-term-wealth/">Strategy</a></li>
+        <li><a href="/category/retirement-accounts/">Retirement</a></li>
+        <li><a href="/glossary/">Glossary</a></li>
+        <li><a href="/about/">About</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <a href="/search/" class="search-toggle" aria-label="Search WealthGuides">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="2"/><path d="M21 21l-4.3-4.3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-nav">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile">
+    <ul>
+      <li><a href="/category/index-fund-etf-basics/">Fund Basics</a></li>
+      <li><a href="/category/comparing-funds-brokers/">Comparisons</a></li>
+      <li><a href="/category/strategy-long-term-wealth/">Strategy</a></li>
+      <li><a href="/category/retirement-accounts/">Retirement</a></li>
+      <li><a href="/category/risk-taxes-mistakes/">Risk & Taxes</a></li>
+      <li><a href="/glossary/">Glossary</a></li>
+      <li><a href="/calculators/">Calculators</a></li>
+      <li><a href="/about/">About</a></li>
+      <li><a href="/contact/">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+<div class="container" style="padding-top: var(--space-5);">
+  <ol class="breadcrumb">
+    <li><a href="/">Home</a></li>
+    <li><a href="/category/retirement-accounts/">Retirement Accounts</a></li>
+    <li aria-current="page">Sequence of Returns Risk: Why the Order of Returns Matters in Retirement</li>
+  </ol>
+</div>
+<article class="container article-layout" style="padding-top: var(--space-6);">
+  <div class="article-main">
+    <span class="badge">Retirement Accounts</span>
+    <h1 style="margin-top: var(--space-4);">Sequence of Returns Risk: Why the Order of Returns Matters in Retirement</h1>
+    <div class="card-meta" style="margin-top: var(--space-4); font-size: var(--fs-sm);">
+      <div class="author-byline">
+        <img src="/assets/images/author/editorial-team.webp" width="32" height="32" alt="" loading="lazy">
+        <div><a class="name" href="/author/editorial-team/" style="color:inherit; text-decoration:none;">WealthGuides Editorial Team</a></div>
+      </div>
+      <span>·</span><span>10 min read</span>
+      <span>·</span><span class="badge badge-updated">Updated August 2026</span>
+    </div>
+    <p style="margin-top: var(--space-2); font-size: var(--fs-xs); color: var(--color-neutral-400);">Researched and fact-checked against primary sources following our <a href="/methodology/">editorial methodology</a>.</p>
+
+    <figure class="article-hero-media" style="margin-top: var(--space-6);">
+      <img src="/assets/images/articles/sequence-of-returns-risk/featured.webp"
+           srcset="/assets/images/articles/sequence-of-returns-risk/featured-480.webp 480w, /assets/images/articles/sequence-of-returns-risk/featured-800.webp 800w, /assets/images/articles/sequence-of-returns-risk/featured-1200.webp 1200w"
+           sizes="(max-width: 640px) 100vw, (max-width: 960px) 90vw, 800px"
+           width="1200" height="675" alt="Chart comparing two retirement withdrawal scenarios with identical average returns in different order, showing very different ending balances" loading="eager" fetchpriority="high">
+      <figcaption>An illustrative example: identical average return, reversed order, producing dramatically different ending balances during withdrawal.</figcaption>
+    </figure>
+
+    <div style="margin-top: var(--space-6);"><nav class="toc" aria-label="Table of contents">
+  <div class="toc-title">In this guide</div>
+  <ol><li><a href="#why-order-matters-when-you-re-withdrawing-money">Why order matters when you're withdrawing money</a></li>
+<li><a href="#a-worked-example-with-verified-numbers">A worked example with verified numbers</a></li>
+<li><a href="#why-this-doesn-t-mean-you-should-avoid-stocks-in-retirement">Why this doesn't mean you should avoid stocks in retirement</a></li>
+<li><a href="#common-mitigation-strategies">Common mitigation strategies</a></li>
+<li><a href="#why-this-concept-is-often-missing-from-simple-average-return-planning">Why this concept is often missing from simple average-return planning</a></li>
+</ol>
+</nav></div>
+
+    <div class="article-body" style="margin-top: var(--space-7);">
+      <p class="lede">Two retirees can experience the exact same average investment return over a 20-year retirement and end up with dramatically different outcomes — one comfortably solvent, the other running out of money — purely because of the <em>order</em> in which the gains and losses occurred. This is sequence of returns risk, and it's specific to the withdrawal phase of investing. It doesn't meaningfully affect someone who's still contributing, which is why it's a distinct concept from the accumulation-phase volatility covered in <a href="/articles/market-volatility-what-index-investors-should-know/">Market Volatility: What Index Investors Should Know</a>.</p>
+      <h2 id="why-order-matters-when-you-re-withdrawing-money">Why order matters when you're withdrawing money</h2>
+<p>During the accumulation phase — while you're contributing, not withdrawing — the order of good and bad years genuinely doesn't matter to your final balance, assuming the same total returns occur; multiplication is commutative, so returns compound to the same result regardless of sequence. Withdrawals change this completely. When you sell shares to fund a withdrawal during a down year, you're selling at a depressed price, permanently reducing the number of shares left to participate in the eventual recovery. The same withdrawal made during an up year sells fewer shares for the same dollar amount, leaving more invested to keep compounding. A bad sequence early in retirement, when the portfolio is at its largest and withdrawals are proportionally most damaging, is structurally worse than the identical bad sequence occurring later, after years of withdrawals have already reduced the balance being affected.</p>
+<h2 id="a-worked-example-with-verified-numbers">A worked example with verified numbers</h2>
+<p>Consider two hypothetical retirees, each starting with $500,000 and withdrawing a fixed $30,000 per year for 20 years. Both experience the exact same 10 annual returns, averaging 4.7% — but in reversed order.</p>
+<div class="table-wrap"><table class="table">
+<caption>Illustrative example — same 10 annual returns (averaging 4.7%), reversed order, repeated across a 20-year withdrawal period</caption>
+<thead><tr><th>Scenario</th><th>Return order</th><th>Ending balance after 20 years</th></tr></thead>
+<tbody>
+<tr><td>Retiree A</td><td>Poor returns concentrated early (starts with a -22% year)</td><td class="numeric">≈ $43,000</td></tr>
+<tr><td>Retiree B</td><td>Same returns, poor years concentrated late instead</td><td class="numeric">≈ $280,000</td></tr>
+</tbody></table></div>
+<p>Both retirees experienced the identical sequence of returns, just reversed, and both averaged the same 4.7% annually over the full period. Retiree A ends up with roughly $237,000 less than Retiree B — a gap that comes entirely from when the losses occurred relative to the fixed withdrawals, not from any difference in investment selection, skill, or luck about the long-run average. This is a simplified, illustrative example built to isolate the mechanism; it uses a specific hypothetical return sequence rather than actual historical market data, and real retirement outcomes depend on your specific withdrawal rate, time horizon, and actual market returns during your specific retirement years.</p>
+<h2 id="why-this-doesn-t-mean-you-should-avoid-stocks-in-retirement">Why this doesn't mean you should avoid stocks in retirement</h2>
+<p>A natural reaction to sequence risk is wanting to eliminate stock market exposure entirely during retirement, but this creates a different problem: a retirement that might last 25–30 years still needs meaningful long-term growth to avoid running out of money to inflation and longevity alone, a concern covered in <a href="/articles/how-much-to-invest-for-retirement-by-age/">How Much to Invest for Retirement by Age</a>. The more common response isn't eliminating stocks, but structuring withdrawals and cash reserves so that a bad early sequence doesn't force selling stocks at depressed prices specifically.</p>
+<h2 id="common-mitigation-strategies">Common mitigation strategies</h2>
+<ul>
+<li><strong>A cash or short-term bond buffer.</strong> Holding one to a few years of planned withdrawals in cash or short-term bonds means a stock market downturn doesn't force selling stocks at a loss to fund near-term spending — you draw from the buffer instead and let stock holdings recover before selling them.</li>
+<li><strong>Flexible withdrawal rates.</strong> Reducing withdrawals during a down market (and potentially increasing them during strong years) reduces how much is sold at depressed prices, at the cost of variable, less predictable income.</li>
+<li><strong>A bond allocation sized for the withdrawal phase.</strong> The gradual shift toward more bonds discussed in <a href="/articles/asset-allocation-by-age/">Asset Allocation by Age</a> is partly a response to sequence risk specifically — a <a href="/articles/bond-index-funds-explained/">bond index fund</a> provides a source of relatively stable value to draw from during a stock downturn.</li>
+<li><strong>Delaying retirement or reducing the withdrawal rate.</strong> A lower withdrawal rate relative to portfolio size provides more cushion against any given bad sequence, since less is being sold at any specific price point.</li>
+</ul>
+<h2 id="why-this-concept-is-often-missing-from-simple-average-return-planning">Why this concept is often missing from simple average-return planning</h2>
+<p>A retirement projection that uses a single assumed average annual return — the same kind of simplified assumption used in our own <a href="/calculators/retirement-savings-calculator/">retirement savings calculator</a> for the accumulation phase — doesn't capture sequence risk at all, because it smooths returns evenly across every year rather than allowing for a specific bad stretch at a specific time. This is a genuine limitation of simple average-return projections specifically for the withdrawal phase, not a flaw unique to any one calculator — it's why more sophisticated retirement-withdrawal analysis often uses techniques like historical sequence testing or Monte Carlo simulation instead of a single average return, tools beyond the scope of a basic projection.</p>
+
+
+      <h2 id="faq">Frequently Asked Questions</h2>
+      <div class="faq-item">
+  <details><summary>Does sequence of returns risk affect me while I'm still working and contributing?</summary><p>Not meaningfully — during accumulation, the order of returns doesn't change your final balance given the same total returns, since there's no forced selling at a fixed dollar withdrawal. It becomes relevant specifically once you start withdrawing a fixed amount from a portfolio.</p></details>
+</div>
+<div class="faq-item">
+  <details><summary>Is there a way to eliminate sequence of returns risk entirely?</summary><p>Not entirely, short of holding only cash (which introduces its own risk of insufficient long-term growth). Common approaches reduce its impact rather than eliminate it — see the mitigation strategies above.</p></details>
+</div>
+<div class="faq-item">
+  <details><summary>How is this different from just 'market volatility'?</summary><p>Market volatility describes price fluctuation in general; sequence of returns risk is specifically about how the timing of that volatility interacts with fixed withdrawals during the retirement/withdrawal phase, which is a narrower and more specific mechanism.</p></details>
+</div>
+<div class="faq-item">
+  <details><summary>Does a higher average return protect against sequence risk?</summary><p>Not necessarily — as the worked example shows, two scenarios with the identical average return can produce very different outcomes purely from order. A higher average helps on balance, but doesn't eliminate the risk from an unlucky early sequence.</p></details>
+</div>
+
+
+      
+
+      <h2 id="summary">Summary</h2>
+      <p>Sequence of returns risk is the danger that poor investment returns early in retirement, combined with fixed withdrawals, can permanently deplete a portfolio faster than the same poor returns occurring later would — even when the long-run average return is identical either way. This matters specifically during the withdrawal phase, because withdrawals lock in losses at a fixed dollar amount regardless of the portfolio's ups and downs, unlike the accumulation phase where there's no forced selling. Common mitigations include maintaining a cash buffer, flexible withdrawal rates, and a bond allocation sized to reduce reliance on stock sales during a downturn.</p>
+
+      <div class="alert alert-info">
+        <div><div class="alert-title">Not financial advice</div>
+        <p style="margin:0;">This article is educational only and not personalized investment advice. See our full <a href="/disclaimer/">disclaimer</a>.</p></div>
+      </div>
+
+      <h2 id="sources">Sources &amp; References</h2>
+      <ul><li><a href="https://www.investor.gov/introduction-investing/investing-basics/investment-products/managing-investment-risk" target="_blank" rel="noopener nofollow">SEC — Investor.gov: Managing Investment Risk</a></li><li><a href="https://www.finra.org/investors/insights" target="_blank" rel="noopener nofollow">FINRA — Investor Insights</a></li></ul>
+
+      <p style="font-size: var(--fs-xs); color: var(--color-neutral-400); margin-top: var(--space-6);">
+        <strong>Corrections &amp; updates:</strong> No corrections logged since publication.
+      </p>
+    </div>
+
+    <div class="axis-rule" role="presentation"></div>
+    <h2>Related articles</h2>
+    <ul style="columns: 2;"><li><a href="/articles/market-volatility-what-index-investors-should-know/">Market Volatility: What Index Investors Should Know</a></li><li><a href="/articles/asset-allocation-by-age/">Asset Allocation by Age</a></li><li><a href="/articles/how-much-to-invest-for-retirement-by-age/">How Much to Invest for Retirement by Age</a></li><li><a href="/articles/rebalancing-your-portfolio/">Rebalancing Your Portfolio</a></li></ul>
+  </div>
+
+  <aside class="sidebar">
+    <div class="card"><div class="card-body">
+      <div class="toc-title">Popular guides</div>
+      <ul style="list-style:none; padding:0; display:flex; flex-direction:column; gap:var(--space-3);">
+        <li><a href="/articles/what-is-an-index-fund/">What Is an Index Fund?</a></li>
+        <li><a href="/articles/best-index-funds-for-beginners/">Best Index Funds for Beginners</a></li>
+        <li><a href="/articles/common-index-fund-investing-mistakes/">9 Common Investing Mistakes</a></li>
+      </ul>
+    </div></div>
+    <div class="card"><div class="card-body">
+      <div class="toc-title">Free tool</div>
+      <p class="card-excerpt">See how fund fees affect your long-term returns.</p>
+      <a href="/calculators/fee-drag-calculator/" class="btn btn-secondary btn-block">Fee Drag Calculator</a>
+    </div></div>
+  </aside>
+</article>
+<div class="reading-progress" id="reading-progress"></div>
+
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a href="/" class="brand" style="color:#fff;" aria-label="WealthGuides home">
+        <span class="brand-mark" aria-hidden="true">◆</span> WealthGuides
+      </a>
+      <p>Plain-English, primary-sourced education on index fund and ETF investing, retirement accounts, and long-term portfolio strategy.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Topics</h4>
+      <ul>
+        <li><a href="/category/index-fund-etf-basics/">Fund &amp; ETF Basics</a></li>
+        <li><a href="/category/comparing-funds-brokers/">Comparing Funds &amp; Brokers</a></li>
+        <li><a href="/category/strategy-long-term-wealth/">Strategy &amp; Long-Term Wealth</a></li>
+        <li><a href="/category/retirement-accounts/">Retirement Accounts</a></li>
+        <li><a href="/category/risk-taxes-mistakes/">Risk, Taxes &amp; Mistakes</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Company</h4>
+      <ul>
+        <li><a href="/about/">About</a></li>
+        <li><a href="/author/editorial-team/">Editorial Team</a></li>
+        <li><a href="/editorial-policy/">Editorial Policy</a></li>
+        <li><a href="/methodology/">Methodology</a></li>
+        <li><a href="/contact/">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="/privacy-policy/">Privacy Policy</a></li>
+        <li><a href="/terms-of-service/">Terms of Service</a></li>
+        <li><a href="/disclaimer/">Financial Disclaimer</a></li>
+        <li><a href="/cookie-policy/">Cookie Policy</a></li>
+        <li><a href="/sitemap/">Sitemap</a></li><li><a href="/feed.xml">RSS Feed</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 WealthGuides. All rights reserved. Educational content only — not investment advice.</p>
+    <p>Focused on U.S. investors and U.S. account rules</p>
+  </div>
+</footer>
+<button class="back-to-top" aria-label="Back to top">
+  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+<script src="/assets/js/nav.js" defer></script>
+
+<script src="/assets/js/toc.js" defer></script>
+<script src="/assets/js/reading-progress.js" defer></script>
+</body>
+</html>

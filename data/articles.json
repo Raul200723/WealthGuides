@@ -260,6 +260,42 @@
       "category": "Strategy & Long-Term Wealth",
       "reading_time": 10,
       "updated": "2026-09"
+    },
+    {
+      "slug": "index-funds-vs-individual-stocks",
+      "url": "/articles/index-funds-vs-individual-stocks/",
+      "title": "Index Funds vs. Individual Stocks: A Beginner's Guide (2026)",
+      "description": "A detailed comparison of index funds and individual stocks for beginners, with worked diversification math, risk tradeoffs, and a practical decision framework.",
+      "category": "Index Fund & ETF Basics",
+      "reading_time": 14,
+      "updated": "2026-09"
+    },
+    {
+      "slug": "backdoor-roth-ira-guide",
+      "url": "/articles/backdoor-roth-ira-guide/",
+      "title": "Backdoor Roth IRA: A Complete Step-by-Step Guide (2026)",
+      "description": "How the backdoor Roth IRA works for 2026: contribution limits, the pro-rata rule explained with a worked example, step-by-step execution, and common mistakes.",
+      "category": "Retirement Accounts",
+      "reading_time": 13,
+      "updated": "2026-09"
+    },
+    {
+      "slug": "fire-movement-index-fund-investing",
+      "url": "/articles/fire-movement-index-fund-investing/",
+      "title": "The FIRE Movement: Building Financial Independence with Index Funds (2026)",
+      "description": "How the FIRE (Financial Independence, Retire Early) movement uses index funds and account sequencing, with a worked savings-rate table and the risks rarely discussed.",
+      "category": "Strategy & Long-Term Wealth",
+      "reading_time": 13,
+      "updated": "2026-09"
+    },
+    {
+      "slug": "custodial-accounts-vs-529-plans",
+      "url": "/articles/custodial-accounts-vs-529-plans/",
+      "title": "Custodial Accounts (UGMA/UTMA) vs. 529 Plans for Kids (2026)",
+      "description": "A detailed comparison of custodial accounts and 529 plans for investing in index funds for your kids, with kiddie tax math, financial aid impact, and a decision framework.",
+      "category": "Retirement Accounts",
+      "reading_time": 13,
+      "updated": "2026-09"
     }
   ]
 }
